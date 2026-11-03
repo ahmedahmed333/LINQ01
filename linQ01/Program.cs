@@ -33,6 +33,23 @@ namespace linQ01
             #region Q03
 
             var price = ProductList.Where(p => p.UnitPrice >= 10M && p.UnitPrice <= 30M);
+
+            foreach (var p in price)
+            {
+                Console.WriteLine(p);
+            }
+
+            #endregion
+
+            #region Q04
+
+            var products = ProductList.Where(p => p.UnitsInStock > 0 && p.Category == "Spices & Condiments");
+
+
+            foreach (var p in products)
+            {
+                Console.WriteLine(p);
+            }
             #endregion
 
 

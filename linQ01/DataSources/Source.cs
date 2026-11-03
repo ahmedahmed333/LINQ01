@@ -449,7 +449,7 @@ namespace LINQ.DataSources
 				CustomerID = "CUS-017",
 				CustomerName = "Yasser Abdelrahman",
 				Address = "33 El Nasr St.",
-				City = "Assiut",
+				City = "Assiut", 
 				Region = "Assiut",
 				PostalCode = "71511",
 				Country = "Egypt",
