@@ -30,6 +30,12 @@ namespace linQ01
             }
             #endregion
 
+            #region Q03
+
+            var price = ProductList.Where(p => p.UnitPrice >= 10M && p.UnitPrice <= 30M);
+            #endregion
+
+
         }
     }
 }
