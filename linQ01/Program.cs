@@ -17,9 +17,18 @@ namespace linQ01
             }
 
 
-     
+
             #endregion
 
+            #region Q02
+            var names = ProductList.Select(p => p.ProductName);
+
+
+                  foreach (var p in names)
+            {
+                Console.WriteLine(p);
+            }
+            #endregion
 
         }
     }
